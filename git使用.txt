@@ -1,0 +1,21 @@
+1.新建文件夹
+2.在文件夹里面 git bash
+3.输入 git init 
+4. git clone ---后接复制的github 地址 下载工程
+5.cd --接下载好的工程文件名
+6.git add . 
+7.git commit -m "写上备注"
+8.git push -u origin master/main
+
+创建分支:
+1.新建文件夹
+2.在文件夹里面 git bash
+3.输入 git init 
+4. git clone ---后接复制的github 地址 下载工程
+5.cd --接下载好的工程文件名
+6.执行:git branch
+7.git branch 查看所有分支
+8.创建本地分支 git checkout -b name origin/name
+9.git add . 
+10.git commit -m "写上备注"
+11.git push -u origin name
